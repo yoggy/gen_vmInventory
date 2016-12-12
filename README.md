@@ -6,7 +6,7 @@ Usage
 ----
 
     $ sudo systemctl stop vmware-workstation-server.service
-    $ ./gen_vmInventory.rb /var/lib/vmware/Shared\\ VMs/ > ~/vmInventory.xml
+    $ ./gen_vmInventory.rb /var/lib/vmware/Shared\ VMs/ > ~/vmInventory.xml
     $ sudo cp ~/vmInventory.xml /etc/vmware/hostd/
     $ sudo systemctl start vmware-workstation-server.service
 
